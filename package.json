@@ -1,6 +1,6 @@
 {
   "name": "site-search-react",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Site Search Powered By Hoppysearch",
   "private": false,
   "main": "dist/index.js",
@@ -13,19 +13,28 @@
     "type": "git",
     "url": "git+https://github.com/Hoppysoft-pvt/site-search-react.git"
   },
+  "peerDependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.7",
+    "axios": "^0.24.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.14",
-    "@mui/material": "^5.15.14",
+    "@mui/material": "^5.15.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.6.8",
+    "axios": "^0.24.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-draggable": "^4.4.6",
     "react-scripts": "5.0.1",
+    "site-search-react": "^0.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

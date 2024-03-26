@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchBar from './lib';
+import SearchBar from 'site-search-react';
 
 function App() {
   return (
